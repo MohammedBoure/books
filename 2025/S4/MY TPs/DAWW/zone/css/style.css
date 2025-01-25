@@ -1,0 +1,85 @@
+.header{
+    position: relative;
+    height: 60px;
+    width: 600px;
+    
+    
+    background: rgba(93, 169, 134, 0.879);
+    background-size: cover;
+    background-attachment: fixed;
+   
+  
+}
+.nav-bar{
+    position: relative;
+    height: 40px;
+    top: -15px; width: 600px;
+  
+    background: rgba(125, 3, 149, 0.879);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.d1{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: -30px;
+   
+    background-color: aquamarine;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.d2{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: -346px;
+    left: 24%;
+   
+    background-color: orchid;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+
+}
+
+.d3{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: -380px;
+   
+    background-color: orange;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.d4{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top: -696px;
+    left: 24%;
+   
+    background-color: blue;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.footer{
+    position: relative;
+    height: 60px;
+    top: -710px; width: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    background-color: rgba(93, 169, 134, 0.879);
+
+}

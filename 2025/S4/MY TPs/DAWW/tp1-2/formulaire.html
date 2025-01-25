@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulair</title>
+</head>
+<body>
+  <fieldset style="background-color: rgba(166, 112, 220, 0.382);">
+    <legend align="left" style="color: rgb(86, 11, 161)  ; background: rgba(218, 28, 218, 0.503);">
+    <b><i> CLIENT</i></b>
+    </legend>
+   <form>
+    Civilite <input type="radio" name="d" id="l1" checked="checked"><lable>Madmoisell</lable>
+     <input type="radio" name="d" id="l1" ><lable>madame</lable>
+    <input type="radio" name="c" id="l1"><lable>monseieur</lable>
+    <br>
+    <br>
+    <label>Nom/ Prenom</label>&nbsp; &nbsp;&nbsp;  <input type="text" id="gg">
+    <br>
+    <br>
+
+    <label>Adress</label>&nbsp; &nbsp;&nbsp; <textarea   placeholder="Rue NO Boite postale"> </textarea>
+    <br>
+    <br>
+    <label>postale/ Localite </label> &nbsp; &nbsp;&nbsp;
+    <input type="name" id="g4">
+    <input type="name"  name="Lausanne"id="g5">
+    <br>
+    <br>
+    <label>Pays</label>&nbsp; &nbsp;&nbsp;
+    <select>
+        <option value="Ville">japon</option>
+        <option value="Ville">switzerland</option>
+        <option value="Ville">suiss</option>
+    </select>
+
+    <br>
+    <br>
+    Platforms(s) &nbsp; &nbsp;&nbsp;
+    <input type="checkbox" name="Windows" checked="checked">
+    <label>Windows</label>
+    <input type="checkbox" name="Windows">
+    <label>Unix</label>
+    <input type="checkbox" name="Windows">
+    <label>Macintosh</label>
+    <br>
+    <br>
+    <label>Application</label>&nbsp; &nbsp;&nbsp;
+    <select name="Application"  multiple >
+
+       
+            <option  >Bureatique</option>
+            <option >DAO</option>
+            <option >Statistique</option> 
+            <option > SGBD </option>
+       
+    </select>
+
+   </form>
+
+  </fieldset>
+
+  <br>
+
+  <legend align="center">
+  <form> 
+
+    <button  onclick="addField()">Soumettre formulaire</button>
+    <Input  type="submit" Value="Effacer">
+  </form>
+  </legend>
+</body>
+</html>

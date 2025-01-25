@@ -1,0 +1,36 @@
+
+body{
+    background-image: url("../download.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    background-attachment: fixed;
+   
+    font-family: VT323;
+
+    
+
+}
+.btn{
+    color: pink;
+}
+.field{
+    width: 410px;
+    height: 290px;
+    position: relative;
+    top: 150px;
+    padding: 30px;
+    
+
+    
+    left: 400px;
+    border-radius: 10px;
+border-style: double;
+background-color: rgba(103, 28, 173, 0.367);
+
+    
+    
+    
+}
+
+
